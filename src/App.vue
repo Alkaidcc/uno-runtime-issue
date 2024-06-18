@@ -17,7 +17,7 @@ onMounted(async () => {
 
 <template>
   <div>
-    <div v-for="dynamicClass in dynamicClasses" :class="dynamicClass"></div>
+    <div v-for="dynamicClass in dynamicClasses" :class="dynamicClass" :key="dynamicClass"></div>
     <div class="i-lucide-umbrella"></div>
   </div>
   <HelloWorld msg="Vite + Vue" />
