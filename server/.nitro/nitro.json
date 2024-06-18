@@ -1,0 +1,17 @@
+{
+  "date": "2024-06-18T00:40:55.404Z",
+  "preset": "nitro-dev",
+  "framework": {
+    "name": "nitro",
+    "version": "2.9.6"
+  },
+  "versions": {
+    "nitro": "2.9.6"
+  },
+  "dev": {
+    "pid": 77581,
+    "workerAddress": {
+      "socketPath": "/var/folders/xb/ymp7v67s3410kjhwwlhrgwj80000gn/T/nitro/worker-77581-1.sock"
+    }
+  }
+}
